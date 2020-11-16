@@ -17,10 +17,14 @@ Everything here is made with **TypeScript**.
 
 ## Setup
 
-The following command will compile a single .ts file in to a .js file:
+The following command will compile a single .ts file into a .js file:
 
 ```
 tsc app.ts
 ```
 
-This will result in an app.js file being created. Type `node app.js` and press Enter.
+This will result in an `app.js` file being created. Type the following command to execute .js file:
+
+```
+node app.js
+```
