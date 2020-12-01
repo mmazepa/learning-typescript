@@ -1,8 +1,8 @@
 class Greeting {
-   greet():void {
-      console.log("Hello World!")
-   }
+  greet():void {
+    console.log("Hello World!")
+  }
 }
 
-var message = new Greeting();
+var message:Greeting = new Greeting();
 message.greet();

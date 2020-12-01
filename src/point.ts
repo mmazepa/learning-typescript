@@ -1,6 +1,6 @@
 class Point {
-  x: number
-  y: number
+  x:number
+  y:number
 
   constructor(x, y) {
     this.x = x
@@ -26,5 +26,5 @@ class Point {
   }
 }
 
-var point = new Point(1,2);
+var point:Point = new Point(1,2);
 point.toString();
