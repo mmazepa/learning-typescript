@@ -12,25 +12,23 @@ convertPersonToString = (person: Person) => {
   return "NAME: " + person.name + ", GENDER: " + person.gender + ", AGE: " + person.age
 }
 
-let person1: Person = {
-  name: "Harold",
-  gender: "male",
-  age: 45
-}
-
-let person2: Person = {
-  name: "Hanna",
-  gender: "female",
-  age: 32
-}
-
-let person3: Person = {
-  name: "Henry",
-  gender: "male",
-  age: 27
-}
-
-const people: Person[] = [person1, person2, person3]
+const people: Person[] = [
+  {
+    name: "Harold",
+    gender: "male",
+    age: 45
+  },
+  {
+    name: "Hanna",
+    gender: "female",
+    age: 32
+  },
+  {
+    name: "Henry",
+    gender: "male",
+    age: 27
+  }
+]
 
 people.forEach((item) => {
   console.log(item)
