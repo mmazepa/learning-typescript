@@ -1,6 +1,6 @@
 class Greeting {
-  greet():void {
-    let hours:number = new Date().getHours();
+  greet(): void {
+    let hours: number = new Date().getHours();
     if (hours >= 5 && hours < 12)
       console.log("Good Morning, World!")
     else if (hours >= 12 && hours < 18)
@@ -10,5 +10,5 @@ class Greeting {
   }
 }
 
-var message:Greeting = new Greeting();
+var message: Greeting = new Greeting();
 message.greet();

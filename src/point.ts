@@ -1,30 +1,30 @@
 class Point {
-  x:number
-  y:number
+  x: number
+  y: number
 
-  constructor(x:number, y:number) {
+  constructor(x: number, y: number) {
     this.x = x
     this.y = y
   }
 
-  getX():number {
+  getX(): number {
     return this.x
   }
-  setX(x:number):void {
+  setX(x: number): void {
     this.x = x
   }
 
-  getY():number {
+  getY(): number {
     return this.y
   }
-  setY(y:number):void {
+  setY(y: number): void {
     this.y = y
   }
 
-  toString():void {
+  toString(): void {
     console.log("(" + this.x + ", " + this.y + ")")
   }
 }
 
-var point:Point = new Point(1,2);
+var point: Point = new Point(1,2);
 point.toString();
