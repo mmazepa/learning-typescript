@@ -2,7 +2,7 @@ class Point {
   x:number
   y:number
 
-  constructor(x, y) {
+  constructor(x:number, y:number) {
     this.x = x
     this.y = y
   }
@@ -10,14 +10,14 @@ class Point {
   getX():number {
     return this.x
   }
-  setX(x):void {
+  setX(x:number):void {
     this.x = x
   }
 
   getY():number {
     return this.y
   }
-  setY(y):void {
+  setY(y:number):void {
     this.y = y
   }
 
